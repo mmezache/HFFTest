@@ -47,7 +47,7 @@ The file "Example_HFF.py" is a python program which compute the complete procedu
 
 The program displays the test signal obtained, the trend estimate, the cloud of points corresponding of the HF features of the null (blue dots) and the point corresponding to the HF features of the tested signal (red dot) and the single-sided amplitude spectrum of the signal which emphasizes the points allowing the computations of the HF features.
 The time of computations may be significantly long if the number of iteration of the Monte-Carlo procedure is big (over 100). However the Monte-Carlo procedure can be computed in a parallelized framework which reduces drastically the time of computations.
-Moreover the automatic choice of the smoothing parameter is efficient for signals which display oscillations of "high" frequency, i.e. if the spike corresponding to the oscillations in the single sided amplitude spectrum is located away from the low-frequency components (example 2 in "ExampleHFF.py"). If the signal tested has oscillations located in the low-frequencies, the users are advised to fix the smoothing parameters (example 1 in "Example_HFF.py"). 
+Moreover the automatic choice of the smoothing parameter is efficient for signals which display oscillations of "high" frequency, i.e. if the spike corresponding to the oscillations in the single sided amplitude spectrum is located away from the low-frequency components (example 2 in "Example_HFF.py"). If the signal tested has oscillations located in the low-frequencies, the users are advised to fix the smoothing parameters (example 1 in "Example_HFF.py"). 
 
 ## Run on local machine
 ```sh
@@ -58,5 +58,5 @@ $ python Example_HFF.py
 
 * [cvxopt](https://cvxopt.org/) - Optimisation library (Python)
 * [pywt](https://pywavelets.readthedocs.io/en/latest/) - Wavelet Transforms library (Python)
-* [DHMR](no link) - Testing high-frequency features in a noisy signal (Paper)
+* [DHMR](no link) - Testing high-frequency features in a noisy signal (Article)
 * [l1tf](https://github.com/bugra/l1) - l1 trend filtering python library
