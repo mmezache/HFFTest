@@ -44,6 +44,7 @@ The file "Example_HFF.py" is a python program which compute the complete procedu
 * the parameter of the $\ell^1$-trend filtering,
 * the number of iteration of the Monte-Carlo procedure,
 * the choice of the test signal.
+
 The program displays the test signal obtained, the trend estimate, the cloud of points corresponding of the HF features of the null (blue dots) and the point corresponding to the HF features of the tested signal (red dot) and the single-sided amplitude spectrum of the signal which emphasizes the points allowing the computations of the HF features.
 The time of computations may be significantly long if the number of iteration of the Monte-Carlo procedure is big (over 100). However the Monte-Carlo procedure can be computed in a parallelized framework which reduces drastically the time of computations.
 Moreover the automatic choice of the smoothing parameter is efficient for signals which display oscillations of "high" frequency, i.e. if the spike corresponding to the oscillations in the single sided amplitude spectrum is located away from the low-frequency components (example 2 in "ExampleHFF.py"). If the signal tested has oscillations located in the low-frequencies, the users are advised to fix the smoothing parameters (example 1 in "Example_HFF.py"). 
