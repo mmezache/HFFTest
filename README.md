@@ -36,6 +36,9 @@ Library of functions in order to compute the examples. The functions are organiz
 * the Monte-Carlo procedure to compute the p-value,
 * the procedure to compute test signals.
 
+##### File outputFigs.py
+Library of functions to display the numerical results.
+
 ##### Examples
 The file "Example_HFF.py" is a python program which compute the complete procedure for a test signal. The users may change at will the following parameters:
 * the length of the signal,
