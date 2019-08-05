@@ -17,7 +17,7 @@ $ pip install --user cvxopt
 ---
 pywt:
 ```sh
-$ pip install --user pywt
+$ pip install --user PyWavelets
 ```
 ---
 Matplotlib:
@@ -61,5 +61,5 @@ $ python Example_HFF.py
 
 * [cvxopt](https://cvxopt.org/) - Optimisation library (Python)
 * [pywt](https://pywavelets.readthedocs.io/en/latest/) - Wavelet Transforms library (Python)
-* [DHMR](no link) - Testing high-frequency features in a noisy signal (Article)
+* [DHMR](no link) - Testing high-frequency features in a noisy signal (Preprint)
 * [l1tf](https://github.com/bugra/l1) - l1 trend filtering python library
