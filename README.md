@@ -27,7 +27,7 @@ $ pip install --user matplotlib
 #### Main features
 The main features of the library are:
 - the detection and computation of the high-frequency features of a 1D signal
-- the Monte Carlo procedure to compute the p-value of the test of hypothesis described in [DHMR]
+- the Monte Carlo procedure to compute the p-value of the test of hypothesis described in [DHMR](https://hal.archives-ouvertes.fr/hal-02263522).
 
 ##### File HFF_v1.py
 Library of functions in order to compute the examples. The functions are organized in four categories in the library:
@@ -44,7 +44,7 @@ The file "Example_HFF.py" is a python program which compute the complete procedu
 * the length of the signal,
 * the standard deviation of the noise,
 * the amplitude of the oscillations,
-* the parameter of the $\ell^1$-trend filtering,
+* the parameter of the l1-trend filtering see [\ell^1](https://web.stanford.edu/~boyd/papers/pdf/l1_trend_filter.pdf),
 * the number of iteration of the Monte-Carlo procedure,
 * the choice of the test signal.
 
@@ -63,3 +63,4 @@ $ python Example_HFF.py
 * [pywt](https://pywavelets.readthedocs.io/en/latest/) - Wavelet Transforms library (Python)
 * [DHMR](https://hal.archives-ouvertes.fr/hal-02263522) - Testing high-frequency features in a noisy signal (Preprint)
 * [l1tf](https://github.com/bugra/l1) - l1 trend filtering python library (Python)
+* [\ell^1](https://web.stanford.edu/~boyd/papers/pdf/l1_trend_filter.pdf) - l1-trend filtering (article)
